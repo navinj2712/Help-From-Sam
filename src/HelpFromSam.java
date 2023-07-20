@@ -19,7 +19,11 @@ public class HelpFromSam {
         while (alex < number){
             alex = alex * 2;
         }
-        count++;
+        if (alex == number){
+        }
+        else {
+            count++;
+        }
         return count;
     }
 }
